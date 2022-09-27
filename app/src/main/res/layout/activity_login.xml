@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Welcome Back"
+		android:textSize="25dp"
+		tools:layout_editor_absoluteX="39dp"
+		tools:layout_editor_absoluteY="47dp"
+		android:fontFamily="@font/montserrat_semi_bold"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Sign In To Continue"
+		tools:layout_editor_absoluteX="39dp"
+		tools:layout_editor_absoluteY="88dp"
+		android:fontFamily="@font/montserrat_light"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Username"
+		tools:layout_editor_absoluteX="39dp"
+		tools:layout_editor_absoluteY="129dp"
+		android:fontFamily="@font/montserrat_semi_bold"/>
+
+	<EditText
+		android:layout_width="331dp"
+		android:layout_height="36dp"
+		android:layout_marginStart="44dp"
+		android:inputType="textEmailAddress"
+		app:layout_constraintStart_toStartOf="parent"
+		tools:layout_editor_absoluteY="161dp"
+		android:fontFamily="@font/montserrat_thin"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Password"
+		tools:layout_editor_absoluteX="39dp"
+		tools:layout_editor_absoluteY="206dp"
+		android:fontFamily="@font/montserrat_semi_bold"/>
+
+	<EditText
+		android:layout_width="331dp"
+		android:layout_height="36dp"
+		android:layout_marginStart="44dp"
+		android:inputType="textPassword"
+		app:layout_constraintStart_toStartOf="parent"
+		tools:layout_editor_absoluteY="246dp"
+		android:fontFamily="@font/montserrat_thin"/>
+
+	<Button
+		android:layout_width="203dp"
+		android:layout_height="36dp"
+		android:backgroundTint="@color/white"
+		android:outlineAmbientShadowColor="@color/white"
+		android:outlineSpotShadowColor="@color/white"
+		android:text="Forgot Password"
+		android:textColor="@color/black"
+		android:textSize="11dp"
+		tools:layout_editor_absoluteX="211dp"
+		tools:layout_editor_absoluteY="282dp"
+		android:fontFamily="@font/montserrat_semi_bold"/>
+
+	<Button
+		android:layout_width="242dp"
+		android:layout_height="46dp"
+		android:text="Sign In"
+		android:fontFamily="@font/montserrat_semi_bold"
+		android:backgroundTint="@color/redbutton"
+		tools:layout_editor_absoluteX="85dp"
+		tools:layout_editor_absoluteY="333dp"
+		android:textAllCaps="false"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
